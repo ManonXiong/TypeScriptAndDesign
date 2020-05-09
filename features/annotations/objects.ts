@@ -1,0 +1,17 @@
+const profile = {
+  name: "alex",
+  age: 20,
+  coords: {
+    lat: 0,
+    lng: 15
+  },
+  setAge(age: number): void {
+    this.age = age;
+  } // a function defined in object with function annotation
+};
+
+// Use ES2015 - destructuring
+const { age }: { age: number } = profile; // {age}: number = profile; - wrong
+const {
+  coords: { lat, lng }
+}: { coords: { lat: number; lng: number }} = profile;
