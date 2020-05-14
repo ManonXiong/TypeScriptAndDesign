@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@types/faker@^4.1.11":
+  version "4.1.11"
+  resolved "https://registry.yarnpkg.com/@types/faker/-/faker-4.1.11.tgz#07911f1a39aeeaeec71d8efa0f93ef0eeafd3462"
+  integrity sha512-iL7khABWgMH53FDfQNYtbFDJXjM3G97KswtyVMUP9XBSt9c+33L1TsXI+mx+EgnoOcuSp12qZae6hLCxGcq7yg==
+
+"@types/googlemaps@^3.39.5":
+  version "3.39.5"
+  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.39.5.tgz#841ef0273a1af1d91b4b6188acdbb3406ddfb089"
+  integrity sha512-iqcN1ZhAKfWS0z5s0/X0MmhYpOIkHsWe4BlSy67+Q8Fq3qDWad+8wohw35hglvH/L69W9fVyBm8QhsTQRFCbsQ==
+
 faker@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/faker/-/faker-4.1.0.tgz#1e45bbbecc6774b3c195fad2835109c6d748cc3f"
